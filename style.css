@@ -1,0 +1,164 @@
+body {
+    font-family: 'monospace',monaco;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lemonchiffon ;
+}
+header {
+  background-color: lemonchiffon;
+  color: darkred;
+  padding: 15px 0;
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 15px;
+
+}
+
+.nav-links li a {
+    color: darkred;
+    text-decoration: none;
+    display:center;
+   justify-content: flex-end;
+}
+
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: lemonchiffon;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
+    background-image: url(https://media.istockphoto.com/id/1258519976/photo/indian-jewellery-accessories-on-background-kundan-necklace-set-indian-traditional-gold.webp?b=1&s=170667a&w=0&k=20&c=HBM_ft1IYzKpMeRu5UhObwljC-XBioPDA1mE0HMc3qw=);
+}
+
+.hero-content h2 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    border-color:black;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    
+ 
+}
+
+.cta-button {
+    background-color: darkred;
+    color: lemonchiffon;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: lemonchiffon;
+    color:darkred;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about,
+.features,
+.cta,
+.contact {
+/* background:url(https://media.istockphoto.com/id/1447176680/photo/bright-gold-rain-abstract-background-christmas-award-celebration-success-glitter.jpg?s=612x612&w=0&k=20&c=3300hHV0TR9LNjk7yqvq89JdKocL2loNJmmIHXv63c8=) no-repeat center center/cover;  */ 
+ background: url(https://media.istockphoto.com/id/1188404402/photo/gold-vintage-ornate-christmas-background-gilded-brass-holiday-shiny-yellow-old-pattern.jpg?s=612x612&w=0&k=20&c=7hnO-ESkBJ4xg9_auqApafVB6Crafben0GPY734BQYg=)no-repeat center center/cover;
+ color: darkred;
+    margin-top: 30px;
+}
+
+.feature-box {
+    margin: 20px;
+    padding: 20px;
+    background-color: lemonchiffon ;
+    color:darkred;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.contact form input,
+.contact form textarea {
+    padding: 10px;
+    border: 1px solid lemonchiffon;
+}
+
+.contact form button {
+    padding: 10px;
+    background-color: darkred;
+    color: lemonchiffon;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;transition:
+    background-color 0.3s ease;
+    
+}
+
+.contact form button:hover{
+  background-color: lemonchiffon;
+  color: darkred;
+      padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: lemonchiffon;
+    color:darkred;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.story{
+  font-size: 35px;
+  font-family: sans-serif;
+  font-style: serif;
+}
+.custum{
+/*   background:url(https://media.istockphoto.com/id/1447176680/photo/bright-gold-rain-abstract-background-christmas-award-celebration-success-glitter.jpg?s=612x612&w=0&k=20&c=3300hHV0TR9LNjk7yqvq89JdKocL2loNJmmIHXv63c8=) no-repeat center center/cover; */
+  color:darkred;
+margin-top: 50px;
+display: flex;
+justify-items: flex-start;
+column-gap:30px;
+}
+
+.heri{
+  color: darkred;
+  display: center;
+ text-align: center;
+}
+.sing{
+  font-size: 25px;
+}
+.spark{
+  font-size: 50px;
+}
